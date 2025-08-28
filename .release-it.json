@@ -1,5 +1,7 @@
 {
     "conventionalCommits": true,
+    "changelog": true,
+    "commitMessage": "release: v${version}\n\n${changelog}",
     "npm": {
         "publish": false,
         "ignoreVersion": false
