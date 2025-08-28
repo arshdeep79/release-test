@@ -28,13 +28,5 @@
             "range": "2.0.x",
             "conventionalCommits": false
         }
-    },
-    "plugins": {
-        "@release-it/conventional-changelog": {
-            "preset": "angular",
-            "skip": [
-                "support/*"
-            ]
-        }
     }
 }
