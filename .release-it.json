@@ -12,12 +12,6 @@
         "publish": false,
         "ignoreVersion": false
     },
-    "plugins": {
-        "@release-it/changelog": {
-            "file": "CHANGELOG.md",
-            "template": "keepachangelog"
-        }
-    },
     "branches": {
         "main": {
             "channel": "latest",
