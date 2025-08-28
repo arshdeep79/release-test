@@ -1,3 +1,7 @@
 - Changelog .
 - must follow npm version as base .
-- must follow commit conventions minor ., patch ., major 
+- must follow commit conventions minor ., patch ., major .
+
+Support
+- must do only increments . 
+- 
