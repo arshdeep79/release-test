@@ -21,7 +21,9 @@
             "channel": "beta"
         },
         "support/*": {
-            "conventionalCommits": false,
+            "plugins": {
+                "@release-it/conventional-changelog": false
+            },
             "channel": "lts",
             "increment": "patch",
             "range": "${branch.name.replace(/^support\\//, '')}"
