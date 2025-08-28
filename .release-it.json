@@ -25,7 +25,8 @@
         "support/*": {
             "channel": "lts",
             "increment": "patch",
-            "range": "2.0.x"
+            "range": "2.0.x",
+            "conventionalCommits": false
         }
     },
     "plugins": {
