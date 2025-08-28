@@ -3,7 +3,7 @@
     "git": {
         "tag": true,
         "changelog": true,
-        "commitMessage": "release: v${version}\n\n${changelog}",
+        "commitMessage": "chore(release): ${version}\n\n${changelog}",
         "requireCleanWorkingDir": true
     },
     "npm": {
@@ -24,6 +24,11 @@
             "channel": "latest",
             "increment": "patch",
             "range": "${branch.name.replace(/^support\\//, '')}"
+        }
+    },
+    "plugins": {
+        "@release-it/conventional-changelog": {
+            "preset": "angular"
         }
     }
 }
