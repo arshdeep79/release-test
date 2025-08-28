@@ -1,5 +1,4 @@
 {
-    "conventionalCommits": true,
     "git": {
         "tag": true,
         "changelog": true,
@@ -12,22 +11,21 @@
     },
     "branches": {
         "main": {
-            "channel": "latest"
+            "channel": "latest",
+            "conventionalCommits": true
         },
         "develop": {
-            "channel": "alpha"
+            "channel": "alpha",
+            "conventionalCommits": true
         },
         "stage": {
-            "channel": "beta"
+            "channel": "beta",
+            "conventionalCommits": true
         },
         "support/*": {
             "channel": "lts",
             "increment": "patch",
-            "range": "2.0.x",
-            "npm": {
-                "publish": false,
-                "ignoreVersion": true
-            }
+            "range": "2.0.x"
         }
     },
     "plugins": {
