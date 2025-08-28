@@ -1,7 +1,11 @@
 {
     "conventionalCommits": true,
-    "changelog": true,
-    "commitMessage": "release: v${version}\n\n${changelog}",
+    "git": {
+        "tag": true,
+        "changelog": true,
+        "commitMessage": "release: v${version}\n\n${changelog}",
+        "requireCleanWorkingDir": true
+    },
     "npm": {
         "publish": false,
         "ignoreVersion": false
