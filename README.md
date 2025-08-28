@@ -1,4 +1,4 @@
-# Release It
+# Release It.
 
 A Node.js project.
 
