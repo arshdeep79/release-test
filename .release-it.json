@@ -22,7 +22,7 @@
         },
         "support/*": {
             "conventionalCommits": false,
-            "channel": "latest",
+            "channel": "lts",
             "increment": "patch",
             "range": "${branch.name.replace(/^support\\//, '')}"
         }
