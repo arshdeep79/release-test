@@ -22,7 +22,8 @@
         },
         "support/*": {
             "channel": "lts",
-            "increment": "patch"
+            "increment": "patch",
+            "range": "2.0.x"
         }
     },
     "plugins": {
