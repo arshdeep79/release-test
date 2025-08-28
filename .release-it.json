@@ -1,7 +1,8 @@
 {
     "conventionalCommits": true,
     "npm": {
-        "publish": false
+        "publish": false,
+        "ignoreVersion": false
     },
     "branches": {
         "main": {
