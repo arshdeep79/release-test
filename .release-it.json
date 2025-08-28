@@ -9,6 +9,17 @@
         "publish": false,
         "ignoreVersion": false
     },
+    "hooks": {
+        "before:bump": "if [[ $BRANCH == support/* ]]; then release-it --increment patch; fi"
+    },
+    "plugins": {
+        "@release-it/conventional-changelog": {
+            "preset": "angular",
+            "skip": [
+                "support/*"
+            ]
+        }
+    },
     "branches": {
         "main": {
             "channel": "latest",
