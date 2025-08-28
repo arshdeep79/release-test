@@ -1,7 +1,7 @@
 {
     "git": {
         "tag": true,
-        "commitMessage": " chore(release):  ${version}\n\n${changelog}",
+        "commitMessage": "chore(release):  ${version}\n\n${changelog}",
         "requireCleanWorkingDir": true
     },
     "npm": {
@@ -26,8 +26,7 @@
         },
         {
             "name": "support/*",
-            "channel": "lts",
-            "prerelease": "lts"
+            "channel": "lts"
         }
     ]
 }
