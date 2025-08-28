@@ -9,6 +9,12 @@
         "publish": false,
         "ignoreVersion": false
     },
+    "plugins": {
+        "@release-it/changelog": {
+            "file": "CHANGELOG.md",
+            "template": "keepachangelog"
+        }
+    },
     "branches": {
         "main": {
             "channel": "latest",
@@ -25,8 +31,7 @@
         "support/*": {
             "channel": "lts",
             "increment": "patch",
-            "range": "2.0.x",
-            "conventionalCommits": false
+            "range": "2.0.x"
         }
     }
 }
