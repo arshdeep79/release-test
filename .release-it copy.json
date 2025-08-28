@@ -1,0 +1,33 @@
+{
+    "git": {
+        "tag": true,
+        "commitMessage": " chore(release):  ${version}\n\n${changelog}",
+        "requireCleanWorkingDir": true
+    },
+    "npm": {
+        "publish": false,
+        "ignoreVersion": false
+    },
+    "branches": [
+        {
+            "name": "main",
+            "channel": "latest",
+            "conventionalCommits": true
+        },
+        {
+            "name": "develop",
+            "channel": "alpha",
+            "conventionalCommits": true
+        },
+        {
+            "name": "stage",
+            "channel": "beta",
+            "conventionalCommits": true
+        },
+        {
+            "name": "support/*",
+            "channel": "lts",
+            "prerelease": "lts"
+        }
+    ]
+}
