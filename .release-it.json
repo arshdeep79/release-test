@@ -21,6 +21,7 @@
             "channel": "beta"
         },
         "support/*": {
+            "conventionalCommits": false,
             "channel": "latest",
             "increment": "patch",
             "range": "${branch.name.replace(/^support\\//, '')}"
