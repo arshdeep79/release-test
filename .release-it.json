@@ -1,7 +1,7 @@
 {
     "git": {
         "tag": true,
-        "changelog": true,
+        "changelogCommand": "auto-changelog --stdout --template changelog.hbs --unreleased-only",
         "commitMessage": "chore(release): ${version}\n\n${changelog}",
         "requireCleanWorkingDir": true
     },
