@@ -1,0 +1,19 @@
+{
+  "conventionalCommits": true,
+  "branches": {
+    "main": {
+      "channel": "latest"
+    },
+    "develop": {
+      "channel": "alpha"
+    },
+    "stage": {
+      "channel": "beta"
+    },
+    "support/*": {
+      "channel": "latest",
+      "increment": "patch",
+      "range": "${branch.name.replace(/^support\\//, '')}"
+    }
+  }
+}
