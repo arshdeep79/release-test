@@ -1,19 +1,22 @@
 {
-  "conventionalCommits": true,
-  "branches": {
-    "main": {
-      "channel": "latest"
+    "conventionalCommits": true,
+    "npm": {
+        "publish": false
     },
-    "develop": {
-      "channel": "alpha"
-    },
-    "stage": {
-      "channel": "beta"
-    },
-    "support/*": {
-      "channel": "latest",
-      "increment": "patch",
-      "range": "${branch.name.replace(/^support\\//, '')}"
+    "branches": {
+        "main": {
+            "channel": "latest"
+        },
+        "develop": {
+            "channel": "alpha"
+        },
+        "stage": {
+            "channel": "beta"
+        },
+        "support/*": {
+            "channel": "latest",
+            "increment": "patch",
+            "range": "${branch.name.replace(/^support\\//, '')}"
+        }
     }
-  }
 }
