@@ -5,7 +5,7 @@ A Node.js project.
 ## Installation
  
 ```bash
-npm install
+npm install 
 ```
 
 ## Usage
