@@ -1,0 +1,7 @@
+to release preprelease, dev , support, stage
+- npx release-it --config=release-it.ts --ci  --preRelease --dry-run
+
+
+for main
+- npx release-it --config=release-it.ts --ci --dry-run
+
